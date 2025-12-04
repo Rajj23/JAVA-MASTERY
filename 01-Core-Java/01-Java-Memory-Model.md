@@ -250,13 +250,13 @@ For atomic operations, use:
 
 ## ⭐ 10. Interview Questions
 
-❓ 1. Why do we need a Java Memory Model?
-❓ 2. What is the difference between heap and stack?
-❓ 3. What is instruction reordering? Why is it dangerous?
-❓ 4. What guarantees does volatile provide?
-❓ 5. What is the happens-before relationship?
-❓ 6. Is i++ atomic? Why not?
-❓ 7. What happens when an object becomes unreachable?
+ 1. Why do we need a Java Memory Model?
+ 2. What is the difference between heap and stack?
+ 3. What is instruction reordering? Why is it dangerous?
+ 4. What guarantees does volatile provide?
+ 5. What is the happens-before relationship?
+ 6. Is i++ atomic? Why not?
+ 7. What happens when an object becomes unreachable?
 
 ## ⭐ 11. Summary Diagram (ASCII)
 
