@@ -1,3 +1,4 @@
+Video link: https://youtu.be/LCSqZyjBwWA?si=y9XJ73e6fQi_h9XI
 # 📘 Java Memory Model (JMM) — Deep Explanation
 
 ## ⭐ 1. Introduction
