@@ -253,9 +253,20 @@ Object reachability decides GC behavior:
 
 ## ⭐ 10. Interview Questions
 
-1. What is the difference between Soft and Weak references?
-2. Why does WeakHashMap delete entries automatically?
-3. Why does PhantomReference always return null?
-4. How do reference queues work with phantom references?
-5. When would you prefer SoftReference over WeakReference?
-6. Explain the reachability levels in Java.
+1. **What is the difference between Soft and Weak references?**
+   - **SoftReference**: Objects are only collected when the JVM runs out of memory. Good for caches.
+   - **WeakReference**: Objects are collected during the very next GC cycle, regardless of memory availability. Good for `WeakHashMap` and preventing memory leaks.
+2. **Why does WeakHashMap delete entries automatically?**
+   - Because the keys in `WeakHashMap` are stored as Weak References. When the key is no longer strongly reachable elsewhere, the GC clears it, and `WeakHashMap` automatically removes the entry.
+3. **Why does PhantomReference always return null?**
+   - Because the object it points to is already "phantom reachable" (finalized) and about to be reclaimed. Returning it would resurrect the object, which defeats the purpose of tracking its cleanup.
+4. **How do reference queues work with phantom references?**
+   - When the GC determines an object is phantom reachable, it puts the `PhantomReference` into the associated `ReferenceQueue`. A background thread can poll this queue to know when the object has been collected and perform cleanup (like freeing native memory).
+5. **When would you prefer SoftReference over WeakReference?**
+   - Use **SoftReference** for caches where you want data to stay in memory as long as possible (performance) but disappear before an `OutOfMemoryError` occurs.
+6. **Explain the reachability levels in Java.**
+   - **Strong**: Normal references.
+   - **Soft**: Reachable only via SoftReference (cleared on low memory).
+   - **Weak**: Reachable only via WeakReference (cleared on next GC).
+   - **Phantom**: Reachable only via PhantomReference (queued for cleanup).
+   - **Unreachable**: Eligible for GC.

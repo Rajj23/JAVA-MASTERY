@@ -251,13 +251,22 @@ For atomic operations, use:
 
 ## ⭐ 10. Interview Questions
 
- 1. Why do we need a Java Memory Model?
- 2. What is the difference between heap and stack?
- 3. What is instruction reordering? Why is it dangerous?
- 4. What guarantees does volatile provide?
- 5. What is the happens-before relationship?
- 6. Is i++ atomic? Why not?
- 7. What happens when an object becomes unreachable?
+ 1. **Why do we need a Java Memory Model?**
+    - It defines rules for how threads interact through memory, ensuring visibility and correct ordering of operations across different hardware architectures and compiler optimizations.
+ 2. **What is the difference between heap and stack?**
+    - **Heap**: Shared memory for objects, slower access, managed by GC.
+    - **Stack**: Thread-private memory for local variables and method calls, fast access, automatically cleared when methods return.
+ 3. **What is instruction reordering? Why is it dangerous?**
+    - To optimize performance, the CPU/Compiler may execute instructions out of order. It is dangerous in multithreading because one thread might see partial updates or events in the wrong order, leading to bugs.
+ 4. **What guarantees does volatile provide?**
+    - **Visibility**: Guarantees that the value is read from/written to main memory directly.
+    - **No Reordering**: Prevents reordering of instructions around the volatile variable.
+ 5. **What is the happens-before relationship?**
+    - A guarantee that memory writes by one specific statement are visible to another specific statement. If A happens-before B, B sees the results of A.
+ 6. **Is i++ atomic? Why not?**
+    - No. It is three steps: Read `i`, Increment `i`, Write `i`. A race condition can occur between the read and write steps.
+ 7. **What happens when an object becomes unreachable?**
+    - It becomes eligible for Garbage Collection. The GC will eventually reclaim its memory.
 
 ## ⭐ 11. Summary Diagram (ASCII)
 
