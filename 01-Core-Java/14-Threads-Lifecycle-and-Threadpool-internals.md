@@ -1,6 +1,5 @@
-# Threads, Lifecycle & ThreadPool Internals (Beginner → Strong)
+# Threads, Lifecycle & ThreadPool Internals 
 
-**Day 14 – Core Java Mastery**
 
 This document explains threads and thread pools from absolute basics, step by step.
 No assumptions are made about prior knowledge.
