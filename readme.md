@@ -36,7 +36,9 @@ Java Mastery/
 │   ├── 14-Threads-Lifecycle-and-Threadpool-internals.md
 │   ├── 15-Locks-and-Synchronizers.md
 │   ├── 16-Atomic-Variables-and-Lock-Free-Programming.md
-│   └── 17-Threadlocal-Forkjoinpool-and-Parallelism.md
+│   ├── 17-Threadlocal-Forkjoinpool-and-Parallelism.md
+│   ├── 18-Oop-Foundations-Classes-Objects-and-Constructors.md
+│   └── 19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md
 │
 └── README.md
 ```
@@ -76,6 +78,10 @@ Java Mastery/
 *   [Locks & Synchronizers](01-Core-Java/15-Locks-and-Synchronizers.md)
 *   [Atomic Variables & Lock-Free Programming](01-Core-Java/16-Atomic-Variables-and-Lock-Free-Programming.md)
 *   [ThreadLocal, ForkJoinPool & Parallelism](01-Core-Java/17-Threadlocal-Forkjoinpool-and-Parallelism.md)
+
+#### 6. OOP Fundamentals (JVM View)
+*   [OOP Foundations — Classes, Objects & Constructors](01-Core-Java/18-Oop-Foundations-Classes-Objects-and-Constructors.md)
+*   [Inheritance, Method Overriding & Dynamic Dispatch](01-Core-Java/19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md)
 
 ---
 
