@@ -38,7 +38,8 @@ Java Mastery/
 │   ├── 16-Atomic-Variables-and-Lock-Free-Programming.md
 │   ├── 17-Threadlocal-Forkjoinpool-and-Parallelism.md
 │   ├── 18-Oop-Foundations-Classes-Objects-and-Constructors.md
-│   └── 19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md
+│   ├── 19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md
+│   └── 20-Abstraction-Abstract-Classes-and-Interfaces.md
 │
 └── README.md
 ```
@@ -82,6 +83,7 @@ Java Mastery/
 #### 6. OOP Fundamentals (JVM View)
 *   [OOP Foundations — Classes, Objects & Constructors](01-Core-Java/18-Oop-Foundations-Classes-Objects-and-Constructors.md)
 *   [Inheritance, Method Overriding & Dynamic Dispatch](01-Core-Java/19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md)
+*   [Abstraction, Abstract Classes & Interfaces](01-Core-Java/20-Abstraction-Abstract-Classes-and-Interfaces.md)
 
 ---
 
