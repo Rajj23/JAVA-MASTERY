@@ -39,7 +39,8 @@ Java Mastery/
 │   ├── 17-Threadlocal-Forkjoinpool-and-Parallelism.md
 │   ├── 18-Oop-Foundations-Classes-Objects-and-Constructors.md
 │   ├── 19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md
-│   └── 20-Abstraction-Abstract-Classes-and-Interfaces.md
+│   ├── 20-Abstraction-Abstract-Classes-and-Interfaces.md
+│   └── 21-Static-Final-Enum-and-Immutability.md
 │
 └── README.md
 ```
@@ -84,6 +85,7 @@ Java Mastery/
 *   [OOP Foundations — Classes, Objects & Constructors](01-Core-Java/18-Oop-Foundations-Classes-Objects-and-Constructors.md)
 *   [Inheritance, Method Overriding & Dynamic Dispatch](01-Core-Java/19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md)
 *   [Abstraction, Abstract Classes & Interfaces](01-Core-Java/20-Abstraction-Abstract-Classes-and-Interfaces.md)
+*   [Static, Final, Enum & Immutability](01-Core-Java/21-Static-Final-Enum-and-Immutability.md)
 
 ---
 
