@@ -41,7 +41,8 @@ Java Mastery/
 │   ├── 19-Inheritance-Method-Overriding-and-Dynamic-Dispatch.md
 │   ├── 20-Abstraction-Abstract-Classes-and-Interfaces.md
 │   ├── 21-Static-Final-Enum-and-Immutability.md
-│   └── 22-Lambdas-Functional-Interfaces-and-Method-Refrences.md
+│   ├── 22-Lambdas-Functional-Interfaces-and-Method-Refrences.md
+│   └── 23-Streams-Api-Internals-and-Lazy-Evaluation.md
 │
 └── README.md
 ```
@@ -90,6 +91,7 @@ Java Mastery/
 
 #### 7. Functional Programming (Java 8+)
 *   [Lambdas, Functional Interfaces & Method References](01-Core-Java/22-Lambdas-Functional-Interfaces-and-Method-Refrences.md)
+*   [Streams API Internals & Lazy Evaluation](01-Core-Java/23-Streams-Api-Internals-and-Lazy-Evaluation.md)
 
 
 ---
